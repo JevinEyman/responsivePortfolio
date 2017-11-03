@@ -1,0 +1,100 @@
+header {
+	text-align: center; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+	line-height: 150%
+	background-color:#ebebeb;
+}
+
+nav {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 24px
+}
+
+section, aside {width:495px;}
+
+
+footer {
+	clear: both;
+	text-align: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	}
+
+body {
+	background-color: #777;
+	width: 960px
+	padding-right:20px;
+	padding-left: 20px;
+	font-family: "arial","helvetica neue","helvetica","sans-serif";
+	font-size: 18px;
+	color: #ebebeb
+
+
+}
+
+	#bio-info {
+		float: left;
+		width: 100%;
+	}
+
+	#bio-connect {
+		float: right;
+		width: 20%;
+	}
+
+p { padding: 10, 10, 10, 10;
+
+}
+
+article {font}
+
+li { color: blue }
+
+h1,h2,h3 {  }
+
+a:hover {background-color: gold
+	 }
+
+li:hover {font-weight: bold;}	 
+
+
+@media only screen and (max-width: 980px) {
+		{max-width: 100%;
+			background-color: green;}
+}
+
+@media only screen and (max-width: 768px) {
+		{max-width: 100%;}
+ 	body{
+		background-color: lightgreen;
+		color: black;
+		
+	}
+ 
+ 	#bio-info {
+		float: none;
+		width:80%;
+	}
+
+	#bio-connect {
+		float: none;
+		width: 20%;
+		text-align: center;
+	}
+
+	img {width: 200px;
+		height: 200px;
+	}
+
+@media only screen and (max-width: 640px) {
+  		{max-width: 100%;
+  			background-color: lightgreen;}
+
+   
+
+
+
+
